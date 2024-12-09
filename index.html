@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/pngwing.com.png" type="image/png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Henny+Penny&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Henny+Penny&family=Nabla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Henny+Penny&family=Mitr:wght@200;300;400;500;600;700&family=Nabla&family=Patrick+Hand&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <title>pokemon</title>
+</head>
+<body>
+  <header>
+
+    <a href="#" class="logo">Pokémon</a>
+
+    <ul class="navbar">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#about">Aboout us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  
+    <div class="main">
+      <a href="#" class="register">Register</a>
+      <div class="menu-icon" id="menu-icon"><i class="ri-menu-line"></i></div>
+    </div>
+      
+  </header>
+  <form id="pokemon-form">
+    
+    <div class="formDiv">
+        <div class="labelDiv">
+          <div class="hero-text">
+            <h1>Pokemon cards</h1>
+          </div>
+          <div class="hero-para">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti exercitationem ad aperiam animi corporis sint aut explicabo, expedita perferendis, fugit neque, architecto sequi deleniti. </p>
+          </div>
+            <label for="numCard">
+                Enter number of cards
+            </label>
+            <div>
+              <input type="number" id="numCard" class="numCard" max="30" min="1" placeholder="Enter number (1-30)" required />
+            </div>
+        </div>
+        <div id="category-button">
+            <button type="button" class="category-button" data-category="fire">Fire</button>
+            <button type="button" class="category-button" data-category="water">Water</button>
+            <button type="button" class="category-button" data-category="grass">Grass</button>
+            <button type="button" class="category-button" data-category="electric">Electric</button>
+            <button type="button" class="category-button" data-category="psychic">Psychic</button>
+            <button type="button" class="category-button" data-category="fairy">Fairy</button>
+            <button type="button" class="category-button" data-category="fighting">Fighting</button>
+            <button type="button" class="category-button" data-category="dragon">Dragon</button>
+        </div>
+        <div class="submitDiv">
+            <button type="submit" class="suubnmitBtn">
+                Search cards
+            </button>
+        </div>
+    </div>
+    <div class="hero-img">
+      <img src="./assets/hero.png" alt="">
+    </div>
+    
+</form>
+<div id="pokemon-container"></div>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+  <div class="hero-sec" style="display: flex; margin-top: 150px;">
+    <div class="hero-text">
+      <div>
+        <h1>Pokemon card</h1>
+      </div>
+      <div class="hero-para">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti exercitationem ad aperiam animi corporis sint aut explicabo, expedita perferendis, fugit neque, architecto sequi deleniti. </p>
+      </div>
+      <div class="input-box">
+        <label for="numCards">
+          Enter number of Cards 
+        </label>
+        <input type="number" placeholder="Enter number (1-30)" class="numCards" id="numCards" min="1" max="30"/>
+      </div>
+      <div id="category-buttons">
+          <button type="button" class="category-button" data-category="fire">Fire</button>
+          <button type="button" class="category-button" data-category="water">Water</button>
+          <button type="button" class="category-button" data-category="grass">Grass</button>
+          <button type="button" class="category-button" data-category="electric">Electric</button>
+          <button type="button" class="category-button" data-category="psychic">Psychic</button>
+          <button type="button" class="category-button" data-category="fairy">Fairy</button>
+          <button type="button" class="category-button" data-category="fighting">Fighting</button>
+          <button type="button" class="category-button" data-category="dragon">Dragon</button>
+
+          <div class="submitDiv">
+            <button type="submit" class="submitBtn">
+              Search Cards
+            </button>
+          </div>
+      </div>
+    </div>
+    <div class="hero-img">
+        <img src="./assets/hero.png" alt="">
+    </div>
+  </div>
+  
+
+  <div id="pokemon-container"></div> -->
+
+
+  <script src="/js/pokemon.js"></script>
+</body>
+</html>
