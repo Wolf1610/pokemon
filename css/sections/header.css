@@ -56,7 +56,7 @@ ul {
     font-family: "Mitr", sans-serif;
     font-weight: 500;
     font-style: normal;
-    padding-top: 10px;
+    padding-top: 4px;
     text-decoration: none;
     font-size: 1rem;
     transition: all .50s ease;
@@ -166,7 +166,7 @@ ul {
 }
 
 #pokemon-form {
-    margin-top: 167px;
+    margin-top: 110px;
 }
 
 
@@ -236,7 +236,7 @@ ul {
 
 
 
-@media (max-width: 1280px) {
+@media (max-width: 5980px) {
     header {
         padding: 14px 2%;
         transition:  .2s;
@@ -247,6 +247,25 @@ ul {
     }
     .register:hover {
         background-color: #bb9e0a;
+    }
+    .image-insert img{
+        display: none;
+        height: 299px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .register {
+        margin-top: 12px;
+        background-color: #ffde40;
+        color: rgb(0, 0, 0);
+        padding: 0.3rem 1rem;
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+    }
+    .register a {
+        font-size: 0.1rem;
+        font-weight: bold;
     }
 }
 
@@ -311,6 +330,16 @@ ul {
     .main a {
         padding-top: 5px;
     }
+
+
+
+#pokemon-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 113px;
+}
+
     .hero-text h1{
         font-family: "Mitr", sans-serif;
         font-weight: 400;
@@ -388,7 +417,7 @@ ul {
     }
     
     #pokemon-form {
-        margin-top: 150px;
+        margin-top: 83px;
     }
     
     
@@ -408,11 +437,20 @@ ul {
         gap: 0.375em;
     }
     
-    .hero-img img {
+    .hero-img  {
         display: none;
         width: 600px;
         margin-right: 206px;
     }
+
+    .image-insert img{
+        display: block;
+        height: 299px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
     .suubnmitBtn:hover {
         background-color: #c5c5c5;
         color: #000;
