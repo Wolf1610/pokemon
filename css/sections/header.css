@@ -97,6 +97,14 @@ ul {
     font-weight: 300;
     margin-top: 7px;
 }
+#select {
+    font-family: "Mitr", sans-serif;
+    color: #fff ;
+    margin-left: 215px;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-top: 7px;
+}
 .labelDiv input {
     margin-left: 215px;
     width: 587px;
@@ -170,7 +178,7 @@ ul {
 }
 
 #pokemon-container {
-    margin-top: 9.375em;
+    margin-top: 6.375em;
     margin-left: 13.438em;
     margin-bottom: 3.438em;
     margin-right: 13.875em;
@@ -313,6 +321,14 @@ ul {
         margin-top: 0px;
     }
     .labelDiv label{
+        font-family: "Mitr", sans-serif;
+        color: #fff ;
+        margin-left: 34px;
+        font-size: 1.25em;
+        font-weight: 300;
+        margin-top: 7px;
+    }
+    #select{
         font-family: "Mitr", sans-serif;
         color: #fff ;
         margin-left: 34px;
