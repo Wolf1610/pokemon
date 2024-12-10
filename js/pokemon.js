@@ -58,7 +58,7 @@ function displayPoke(pokeArray) {
         console.log(listItem);
         listItem.className = "list-item";
         listItem.innerHTML = `
-            <div style=" padding: 1.25em; background-color: #070706; color: black; border-radius: 0.4em;">
+            <div style=" padding: 1.25em; background-color: #070706; color: black; border-radius: 0.4em; border: 2px solid #6a6a6a;">
                 <div class="img-wrap">
                     <img  style="height: 12.875rem; width: 12.875rem;" src="https://raw.githubusercontent.com/pokeapi/sprites/master/sprites/pokemon/other/dream-world/${pokeId}.svg" alt="${pokeItem.pokemon.name}" />
                 </div>
